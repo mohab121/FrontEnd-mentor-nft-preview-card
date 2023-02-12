@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/mohab121/frontend-mentor-product-preview-card)
-- Live Site URL: [Add live site URL here](https://mohab121.github.io/frontend-mentor-product-preview-card/)
+- Solution URL: [Add solution URL here](https://github.com/mohab121/FrontEnd-mentor-nft-preview-card)
+- Live Site URL: [Add live site URL here](https://mohab121.github.io/FrontEnd-mentor-nft-preview-card/)
 
 ## My process
 
