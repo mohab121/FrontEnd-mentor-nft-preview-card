@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-color: hsl(217, 54%, 11%) !important;
+}
+
+main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: hsl(216, 45%, 12%);
+    padding: 3%;
+    font-family: 'Outfit';
+}
+
+.card_container{
+    width: 265px;
+    height: 445px;
+    padding: 5%;
+    background-color: hsl(216, 50%, 16%) !important;
+    box-shadow: 1px 1px 5px 15px hsl(216, 50%, 14%);
+}
+
+.image{
+    max-width: 100%;
+    max-height: 50%;
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.image:hover{opacity: .3; cursor: pointer;}
+
+.view{
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top:3%;
+    width: 90%;
+    height: 51%;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.view:hover{opacity: .6; cursor: pointer;}
+
+#card-body{
+    padding-left: 0%;
+}
+
+#title{
+    font-size: 1rem; 
+    font-weight: 600; 
+    letter-spacing: -1px;
+    color: hsl(0, 0%, 100%);
+}
+
+#title:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+#text{
+    font-size: .8rem;
+    font-weight: 300;
+    color: hsl(215.77,20.63%,50.59%);
+}
+
+.time{
+    display: flex;
+    justify-content: space-between;
+    color: hsl(215.77,20.63%,50.59%);
+}
+
+.time span:first-child{
+    color: hsl(178, 100%, 50%);
+}
+
+#line{
+    border-bottom: 1px solid hsl(215.77,20.63%,50.59%);
+}
+
+.avatar{color:hsl(215.77,20.63%,50.59%) ;}
+.avatar img:first-child{height: 30px;}
+#name{color: white;}
+#name:hover{color: hsl(178, 100%, 50%);  cursor: pointer;}
+
+footer{
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
